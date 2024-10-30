@@ -22,8 +22,18 @@ The Software Job Market Insights iOS app will provide interactive visualizations
 - Tap markers to view detailed city statistics
 
 <div align="center">
-  <img src="images/job-market-map.png" width="50%" height="50%">
-  <p><i>Interactive Job Market Map Sample</i></p>
+<table>
+<tr>
+<td width="50%">
+  <img src="images/job-market-map.png" width="100%">
+  <p align="center"><i>Interactive Job Market Map Sample</i></p>
+</td>
+<td width="50%">
+  <img src="images/job-market-map-annotation.png" width="100%">
+  <p align="center"><i>Sample Annotation Displayed on Tap</i></p>
+</td>
+</tr>
+</table>
 </div>
 
 #### 2. City Rankings & Comparisons
