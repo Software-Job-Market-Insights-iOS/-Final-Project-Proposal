@@ -20,7 +20,11 @@ The Software Job Market Insights iOS app will provide interactive visualizations
   - Standard of living index
 - Filter controls to adjust visualization parameters
 - Tap markers to view detailed city statistics
-- Save favorite locations for quick comparison
+
+<div align="center">
+  <img src="images/job-market-map.png" width="50%" height="50%">
+  <p><i>Interactive Job Market Map Sample</i></p>
+</div>
 
 #### 2. City Rankings & Comparisons
 - Sortable list view of all tracked cities
