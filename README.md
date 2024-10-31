@@ -48,6 +48,21 @@ The Software Job Market Insights iOS app will provide interactive visualizations
 - Detailed breakdown of each metric's components
 - Export comparison data as PDF
 
+<div align="center">
+<table>
+<tr>
+<td width="50%">
+  <img src="images/city-list.png" width="100%">
+  <p align="center"><i>Interactive Job Market Map Sample</i></p>
+</td>
+<td width="50%">
+  <img src="images/job-market-map-annotation.png" width="100%">
+  <p align="center"><i>Sample Annotation Displayed on Tap</i></p>
+</td>
+</tr>
+</table>
+</div>
+
 #### 3. Market Trends Dashboard
 - Historical and projected industry trends
 - Key metrics:
@@ -83,7 +98,7 @@ The Software Job Market Insights iOS app will provide interactive visualizations
 
 #### Navigation Flow
 ```
-Login/Registration
+Tabs
     │
     ├── Map View (Main Tab)
     │   ├── Filter Controls
@@ -91,22 +106,12 @@ Login/Registration
     │
     ├── Rankings (Second Tab)
     │   ├── Sorting Controls
-    │   ├── City Comparison View
-    │   └── Export Options
+    │   └── City Comparison View
     │
-    ├── Trends (Third Tab)
-    │   ├── Trend Selection
-    │   └── Detailed Analysis View
-    │
-    └── Settings (Fourth Tab)
-        ├── Profile Management
-        ├── Preferences
-        └── Data Update Controls
+    └── Trends (Third Tab)
+        ├── Trend Selection
+        └── Detailed Analysis View
 ```
-
-#### Mock Screens
-
-[Note: In an actual proposal, insert mockup screenshots here using design tools like Figma]
 
 ### Development Timeline
 
