@@ -77,12 +77,12 @@ The Software Job Market Insights iOS app will provide interactive visualizations
 ### Technical Implementation
 
 #### Data Sources
-- Salary Data: Levels.fyi API and Bureau of Labor Statistics
-- Cost of Living: Numbeo API
-- Tax Information: TaxJar API
-- Job Market Data: LinkedIn and Indeed APIs
-- Educational Statistics: National Center for Education Statistics
-- Company Hiring Data: SEC filings and company reports
+- Company Hiring Data, Locations of Positions, Mean Salaries of Positions
+  - https://www.kaggle.com/code/nileshthonte/levels-fyi-salary-dataset-eda-and-modelling/input
+- Software Developer Income & Expenses per City
+  - https://www.kaggle.com/datasets/thedevastator/u-s-software-developer-salaries/data
+- Quantity of Software Developer Jobs by City
+  - https://data.bls.gov/oes/#/occGeo/One%20occupation%20for%20multiple%20geographical%20areas
 
 #### Frameworks & Technologies
 - MapKit for geographical visualization
