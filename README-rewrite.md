@@ -1,3 +1,5 @@
+Here's the markdown with your requested comparison view implementation added:
+
 # Software Job Market Insights iOS App
 
 ## Project Overview
@@ -80,13 +82,17 @@ This list is parallel to the above map, showing the rankings in a list format in
 </table>
 </div>
 
-#### 3. Comparison View
+### 3. Comparison View
 
-In 
+The comparison view is accessible through interactions in both the map and list views. Users can:
+- Tap on map annotations or list items to add locations/companies to the comparison queue
+- View detailed comparisons of up to 4 items simultaneously
+- Access comparison data through a menu that appears on selection
+- Add or remove items from the comparison queue as needed
 
-### Technical Implementation
+## Technical Implementation
 
-#### Data Sources
+### Data Sources
 - Company Hiring Data, Locations of Positions, Mean Salaries of Positions
   - https://www.kaggle.com/code/nileshthonte/levels-fyi-salary-dataset-eda-and-modelling/input
 - Software Developer Income & Expenses per City
@@ -94,10 +100,9 @@ In
 - Quantity of Software Developer Jobs by City
   - https://data.bls.gov/oes/#/occGeo/One%20occupation%20for%20multiple%20geographical%20areas
 
-#### Frameworks
+### Frameworks
 
 ### Navigation
-
 ```
 Tabs
     │
@@ -111,4 +116,3 @@ Tabs
 ```
 
 ### Development Timeline
-
