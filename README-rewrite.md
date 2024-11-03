@@ -1,5 +1,3 @@
-Here's the markdown with your requested comparison view implementation added:
-
 # Software Job Market Insights iOS App
 
 ## Project Overview
@@ -14,9 +12,7 @@ Software professionals often struggle to make informed decisions about job locat
 
 ## Solution Overview
 
-*UNFINISHED*
-
-The Software Job Market Insights iOS app will provide interactive visualizations in order to help software professionals analyze and compare job markets across the United States. The app will combine...
+The Software Job Market Insights iOS app will provide interactive visualizations in order to help software professionals analyze and compare job markets across the United States. The app will combine a map view, a list view, a company / city details view, and a comparison view. 
 
 ## Key Features
 
@@ -101,6 +97,11 @@ The comparison view is accessible through interactions in both the map and list 
   - https://data.bls.gov/oes/#/occGeo/One%20occupation%20for%20multiple%20geographical%20areas
 
 ### Frameworks
+
+- MapKit
+- UIKit
+- Charts
+- Core Data
 
 ### Navigation
 ```
