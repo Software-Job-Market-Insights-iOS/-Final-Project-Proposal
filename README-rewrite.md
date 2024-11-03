@@ -117,3 +117,10 @@ Tabs
 ```
 
 ### Development Timeline
+
+- Nov. 3 to Nov. 12
+- Nov. 10 to Nov. 17
+- Nov. 17 to Nov. 24
+- Nov. 24 to Dec. 1
+- Dec. 1 to Dec. 8
+- Dec. 8 to Dec. 15
