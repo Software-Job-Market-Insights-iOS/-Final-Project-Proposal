@@ -12,15 +12,22 @@ The Software Job Market Insights iOS app will provide interactive visualizations
 ### Key Features
 
 #### 1. Interactive Job Market Map
-- Interactive US map showing software engineering job concentrations
-- Color-coded markers based on selected metrics:
-  - Raw salary data
-  - Cost of living adjusted salary
-  - Tax burden impact
-  - Number of available positions
-  - Standard of living index
-- Filter controls to adjust visualization parameters
-- Tap markers to view detailed city statistics
+There are 4 options for displaying markers on a US map.
+
+A) Software Developer Income + Expenses by City
+    - Markers would be colored based on the average total compensation for software jobs in that city
+    - There would also be an option to include cost of living in that ranking
+
+B) Quantity of Software Jobs by City
+    - Markers would be colored based on the total number of software jobs in that city
+    
+C) Company Job Location
+    - Markers would be based on the average compensation of a software job offered by a company in that city
+    - Includes a search bar in order to select company (Apple, Google, etc.)
+        
+D) Weighted Sum of the previous 3 measurements.
+    - Weighted sum of the 3 above rankings
+    - The ideal city would include a good balance of total number of software jobs, compensation of jobs, and which companies employ in that city
 
 <div align="center">
 <table>
