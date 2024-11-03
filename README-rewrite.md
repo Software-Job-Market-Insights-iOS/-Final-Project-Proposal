@@ -1,33 +1,50 @@
 # Software Job Market Insights iOS App
-## Final Project Proposal
-## Penn State CMPSC 475 Applications Programming Fall 2024
 
-### Problem Statement
+## Project Overview
+**Final Project Proposal**  
+CMPSC 475: Applications Programming  
+Penn State University  
+Fall 2024
+
+## Problem Statement
+
 Software professionals often struggle to make informed decisions about job locations due to the complexity of factors affecting total compensation, cost of living, and career advancement opportunities. While raw data which characterize each of these topics individually exist, it is difficult to visualize their interconnectedness.
 
-### Solution Overview
-UNFINISHED
-The Software Job Market Insights iOS app will provide interactive visualizations in order to help software professionals analyze and compare job markets across the United States. The app will combine 
+## Solution Overview
 
-### Key Features
+*UNFINISHED*
 
-#### 1. Interactive Job Market Map
-There are 4 options for displaying markers on a US map.
+The Software Job Market Insights iOS app will provide interactive visualizations in order to help software professionals analyze and compare job markets across the United States. The app will combine...
 
-A) Software Developer Income + Expenses by City
-    - Markers would be colored based on the average total compensation for software jobs in that city
-    - There would also be an option to include cost of living in that ranking
+## Key Features
 
-B) Quantity of Software Jobs by City
-    - Markers would be colored based on the total number of software jobs in that city
-    
-C) Company Job Location
-    - Markers would be based on the average compensation of a software job offered by a company in that city
-    - Includes a search bar in order to select company (Apple, Google, etc.)
-        
-D) Weighted Sum of the previous 3 measurements.
-    - Weighted sum of the 3 above rankings
-    - The ideal city would include a good balance of total number of software jobs, compensation of jobs, and which companies employ in that city
+### 1. Interactive Job Market Map
+
+The map offers four visualization modes for displaying markers across the United States:
+
+#### A. Software Developer Income + Expenses by City
+- Markers colored based on average total compensation
+- Optional toggle to include cost of living adjustments
+- Interactive comparison between raw and adjusted salaries
+
+#### B. Quantity of Software Jobs by City
+- Markers colored based on total number of available positions
+- Heat map visualization of job density by region
+
+#### C. Company Job Location
+- Markers based on company-specific average compensation
+- Features include:
+  - Company search functionality
+  - Filtering by major tech employers (Apple, Google, etc.)
+  - Salary range visualization
+
+#### D. Weighted Market Score
+- Comprehensive ranking based on:
+  - Total job availability
+  - Average compensation
+  - Employer diversity
+  - Cost of living adjustments
+- Customizable weighting of factors
 
 <div align="center">
 <table>
@@ -44,17 +61,9 @@ D) Weighted Sum of the previous 3 measurements.
 </table>
 </div>
 
-#### 2. City Rankings & Comparisons
-- Sortable list view of all tracked cities
-- Ranking metrics:
-  - Total compensation
-  - Cost-adjusted compensation
-  - Job availability
-  - Growth potential
-  - Quality of life score
-- Side-by-side city comparison tool
-- Detailed breakdown of each metric's components
-- Export comparison data as PDF
+### 2. Navigation List 
+
+This list is parallel to the above map, showing the rankings in a list format instead of a keyed map.
 
 <div align="center">
 <table>
@@ -71,16 +80,9 @@ D) Weighted Sum of the previous 3 measurements.
 </table>
 </div>
 
-#### 3. Market Trends Dashboard
-- Historical and projected industry trends
-- Key metrics:
-  - CS degree graduation rates
-  - Industry hiring projections
-  - Major employer hiring volumes
-  - Inflation impact on compensation
-  - Remote work trends
-- Interactive charts and graphs
-- Quarterly data updates
+#### 3. Comparison View
+
+In 
 
 ### Technical Implementation
 
@@ -101,15 +103,11 @@ Tabs
     │
     ├── Map View (Main Tab)
     │   ├── Filter Controls
-    │   └── City Detail View
+    │   └── City Detail View or Company Detail View depending on mode
     │
-    ├── Rankings (Second Tab)
-    │   ├── Sorting Controls
-    │   └── City Comparison View
-    │
-    └── Trends (Third Tab)
-        ├── Trend Selection
-        └── Detailed Analysis View
+    └── List View (Second Tab)
+        ├── Sorting Controls
+        └── City Comparison View
 ```
 
 ### Development Timeline
