@@ -60,8 +60,25 @@ The map offers four visualization modes for displaying markers across the United
 </div>
 
 ### 2. Navigation List 
+This list is parallel to the above map, showing the rankings in a list format instead of a keyed map. The list view will include additional advanced filters suitable to a list format:
 
-This list is parallel to the above map, showing the rankings in a list format instead of a keyed map.
+#### A. Income & Expenses Filters
+- Minimum base salary threshold
+- Maximum cost of living index
+- Minimum disposable income after expenses
+
+#### B. Job Quantity Filters
+- Minimum number of available positions
+- Job density per capita
+- Job level distribution (entry/mid/senior)
+
+#### C. Company-Specific Filters
+- Company size (startup/midsize/enterprise)
+- Employees in specific cities
+
+#### D. Weighted Score Filters
+- Minimum composite score threshold
+- Custom weight presets
 
 <div align="center">
 <table>
@@ -69,10 +86,6 @@ This list is parallel to the above map, showing the rankings in a list format in
 <td width="50%">
   <img src="images/city-list.png" width="100%">
   <p align="center"><i>Interactive Job Market Map Sample</i></p>
-</td>
-<td width="50%">
-  <img src="images/job-market-map-annotation.png" width="100%">
-  <p align="center"><i>Sample Annotation Displayed on Tap</i></p>
 </td>
 </tr>
 </table>
@@ -85,6 +98,8 @@ The comparison view is accessible through interactions in both the map and list 
 - View detailed comparisons of up to 4 items simultaneously
 - Access comparison data through a menu that appears on selection
 - Add or remove items from the comparison queue as needed
+- Lists all data on a city or company (depending on mode) such as company size, average salary, quantity of jobs in city, etc.
+- Will be able to function as a single company or city details view if it is the only item in the comparison queue
 
 ## Technical Implementation
 
@@ -111,16 +126,35 @@ Tabs
     │   ├── Filter Controls
     │   └── City Detail View or Company Detail View depending on mode
     │
-    └── List View (Second Tab)
-        ├── Sorting Controls
-        └── City Comparison View
+    ├── List View (Second Tab)
+    │   ├── Sorting Controls
+    │   └── Filter Controls
+    │
+    └── Comparison View (Third Tab)
+        ├── Comparison Queue (up to 4 items)
+        ├── Detailed Metrics Grid
+        └── Add/Remove Items Controls
 ```
 
 ### Development Timeline
 
-- Nov. 3 to Nov. 12
-- Nov. 10 to Nov. 17
-- Nov. 17 to Nov. 24
-- Nov. 24 to Dec. 1
-- Dec. 1 to Dec. 8
-- Dec. 8 to Dec. 15
+- Nov. 3 to Nov. 12: (Model + Data Schema)
+  - Model configuration
+  - Setup universal identifiers of cities and locations to coalesce different schemas from different data sources
+- Nov. 10 to Nov. 17: (Map View Main)
+  - Map View Configuration
+  - Mode selection on Map View for Salary, Company, Quantity with color keys
+- Nov. 17 to Nov. 24: (Additional Map View and Model View Config)
+  -  Annotation on Map View configuration
+  -  Create functionality for comparison queue in model view
+  -  Add ability to add and remove from comparison queue in annotation on map view
+- Nov. 24 to Dec. 1: (List View)
+  - List View Configuration
+  - Mode selection on List View for Salary, Company, Quantity
+  - Advanced Filters on List View
+- Dec. 1 to Dec. 8: (Comparison View)
+  - Comparison View Implementation 
+- Dec. 8 to Dec. 15: (Miscellaneous)
+  - Testing
+  - Cosmetic Updates
+  - Proper configuraiton for different device layouts and sizes
