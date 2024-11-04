@@ -115,7 +115,6 @@ The comparison view is accessible through interactions in both the map and list 
 
 - MapKit
 - UIKit
-- Charts
 - Core Data
 
 ### Navigation
@@ -153,8 +152,8 @@ Tabs
   - Mode selection on List View for Salary, Company, Quantity
   - Advanced Filters on List View
 - Dec. 1 to Dec. 8: (Comparison View)
-  - Comparison View Implementation 
+  - Comparison View Implementation
 - Dec. 8 to Dec. 15: (Miscellaneous)
   - Testing
-  - Cosmetic Updates
+  - Cosmetic and Aesthetic Configurations
   - Proper configuraiton for different device layouts and sizes
